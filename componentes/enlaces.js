@@ -1,25 +1,18 @@
-import { Text, StyleSheet, View } from 'react-native';
-import React, { Component } from 'react';
+import { Text, StyleSheet, View, Button } from 'react-native';
 
-export default class enlaces extends Component {
-  render() {
+export default function Enlaces({navigation}) {
     return (
-      <View style={styles.view}>
-
-        <Text style={styles.texto}> texto <Button style={styles.link}
-          texto="cheto"
-          onPress={() => navigation.navigate("")}
-        /> </Text>
-        
+      <View>
+        <Text>jalisjalsj</Text>
+        <Button style={styles.link} 
+        tittle="hkhkjhjk"
+        onPress={() => navigation.navigate()}></Button>
       </View>
     );
   }
-}
+
 
 const styles = StyleSheet.create({
-  texto: {
-    color: '#fff',
-  },
   link:{
     color: '#F18805',
   },

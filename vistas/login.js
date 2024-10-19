@@ -1,16 +1,20 @@
 import { Text, StyleSheet, View } from 'react-native'
-import React, { Component } from 'react'
+import Enlaces from '../componentes/enlaces'
 
-export default class login extends Component {
-  render() {
+export default function Login() {
     return (
-      <View>
-        <Text>login</Text>
+      <View style={styles.div}>
+        <Text style={styles.text}>cheto soy lksdjsiijdld</Text>
+        
       </View>
     )
   }
-}
 
 const styles = StyleSheet.create({
-    
+    div:{
+      alignItems: 'center',
+      justifyContent:'center',
+      backgroundColor: 'green',
+      width: 'fill',
+    },
 })

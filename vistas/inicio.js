@@ -1,13 +1,16 @@
-import { Text, StyleSheet, View } from 'react-native'
+import { Text, StyleSheet, View, Button } from 'react-native'
 import React, { Component } from 'react'
-import Enlaces from "../componentes/enlaces"
+import SignIn from './signIn'
 
 export default class inicio extends Component {
   render() {
     return (
       <View>
         <Text style={styles.text}>este es el inicio zarpado en cheto</Text>
-        <Enlaces text= "sos CAPOOOOO" onPress={() => navigation.navigate('SignIn')}></Enlaces>
+        <Button style={styles.link}
+        title="opkkkop"
+        onPress={() => navigation.navigate("SignIn")}>
+        </Button>
         
       </View>
     )
@@ -16,6 +19,9 @@ export default class inicio extends Component {
 
 const styles = StyleSheet.create({
     text:{
-        color:'#fff',
+        color:'black',
+    },
+    link:{
+      color: '#F18805',
     },
 })
