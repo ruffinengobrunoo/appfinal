@@ -1,6 +1,9 @@
 import { Text, StyleSheet, View, Button } from 'react-native'
 import React, { Component } from 'react'
+
 import SignIn from './signIn'
+import Login from "./login"
+import { NavigationContainer } from '@react-navigation/native'
 
 export default class inicio extends Component {
   render() {
@@ -8,8 +11,8 @@ export default class inicio extends Component {
       <View>
         <Text style={styles.text}>este es el inicio zarpado en cheto</Text>
         <Button style={styles.link}
-        title="opkkkop"
-        onPress={() => navigation.navigate("SignIn")}>
+        title="oooaaaaa"
+        onPress={() => NavigationContainer}>
         </Button>
         
       </View>
