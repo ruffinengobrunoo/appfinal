@@ -1,15 +1,19 @@
-import React, { Component } from 'react'
-import { Text, StyleSheet, View } from 'react-native'
+import { StyleSheet, Text, TextInput } from 'react-native'
+import { SafeAreaView, SafeAreaProvider } from 'react-native-safe-area-context'
 
-export default class SignIn extends Component {
-  render() {
-    return (
-      <View>
-        <Text> SOS CAPO </Text>
-      </View>
-    )
-  }
+import React from 'react'
+
+export default signIn = () => {
+  return (
+    <SafeAreaProvider>
+      <SafeAreaView>
+        <TextInput></TextInput>
+      </SafeAreaView>
+    </SafeAreaProvider>
+  )
 }
+
+
 
 const styles = StyleSheet.create({
 

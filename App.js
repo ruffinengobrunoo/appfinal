@@ -1,14 +1,21 @@
-import * as React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import './navigation/gesture-handler';
 
-import Login from './vistas/login'
-import SignIn from './vistas/signIn'
-import Inicio from './vistas/inicio'
+// import TopTab from './navigation/TopTab'
+
 import Prueba from "./vistas/prueba"
 
 
 const Stack = createNativeStackNavigator();
+
+// const Home = () =>{
+//   return(
+//     <NavigationContainer>
+//       <TopTab></TopTab>
+//     </NavigationContainer>
+//   )
+// }
 
 export default function App() {
   return (
@@ -20,3 +27,4 @@ export default function App() {
       
   );
 }
+
