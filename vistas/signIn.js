@@ -7,7 +7,29 @@ export default signIn = () => {
   return (
     <SafeAreaProvider>
       <SafeAreaView>
-        <TextInput></TextInput>
+       
+        <TextInput
+            style={styles.input}
+            onChangeText={onChangeText}
+            placeholder="Nombre"
+            placeholderTextColor={'#E3E4DB'}
+            value={text}
+          />
+           <TextInput
+            style={styles.input}
+            onChangeText={onChangeText}
+            placeholder="Apellido"
+            placeholderTextColor={'#E3E4DB'}
+            value={text}
+          />
+          <TextInput
+            style={styles.input}
+            onChangeText={onChangeText}
+            placeholder="Correo Electrónico"
+            placeholderTextColor={'#E3E4DB'}
+            value={text}
+          />
+        
       </SafeAreaView>
     </SafeAreaProvider>
   )
