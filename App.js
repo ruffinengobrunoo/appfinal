@@ -22,6 +22,7 @@ export default function App() {
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Prueba">
         <Stack.Screen name="Prueba" component={Prueba} />
+
       </Stack.Navigator>
     </NavigationContainer>
       

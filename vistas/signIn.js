@@ -1,15 +1,14 @@
 import { Text, StyleSheet, Button, TextInput, TouchableOpacity, View } from "react-native";
 import { React } from "react";
 import { useState } from "react";
-import { NavigationContainer } from "@react-navigation/native";
+import { NavigationContainer, useNavigation } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { SafeAreaView, SafeAreaProvider } from 'react-native-safe-area-context'
 // import { View } from "react-native-web";
 
-
 import Boton from '../componentes/Boton'
 
-// const navigation = NavigationContainer();
+const navigation = useNavigation();
 
 const Stack = createNativeStackNavigator();
 
